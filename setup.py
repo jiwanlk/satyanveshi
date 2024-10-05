@@ -9,6 +9,6 @@ setup(
         "spacy",
     ],
     package_data={
-        '': ['satya/*'],  # Include all files in the satya model
+        '': ['satya/**/*'],  # Include all files in the satya model
     },
 )
